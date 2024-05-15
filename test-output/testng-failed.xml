@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.allianz.test.PetRequestTest">
+      <class name="com.allianz.test.PetManageTest">
         <methods>
-          <include name="findValidPetTest"/>
+          <include name="addValidPetToStore"/>
         </methods>
-      </class> <!-- com.allianz.test.PetRequestTest -->
+      </class> <!-- com.allianz.test.PetManageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
